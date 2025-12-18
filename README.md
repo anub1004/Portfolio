@@ -1,16 +1,71 @@
-# React + Vite
+# 🎨 Animated Color-Changing Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and interactive personal portfolio built using **React.js**, featuring animated UI components, dynamic routing, and a persistent color theme system.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built entirely with **React.js**
+- 🔀 Smooth navigation using **React Router**
+- 🎨 Dynamic color theme switching using **HSL in CSS**
+- - 🌙 **Dark/Light mode toggle** with persistent user preference using **Local Storage**
+- 💾 Theme persistence using **Local Storage**
+- ✨ Animated UI components and transitions
+- 📱 Fully responsive design for all screen sizes
+- 🧩 Modular and reusable React components
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js, JavaScript (ES6+)
+- **Routing:** React Router
+- **Styling:** CSS (HSL color model), Animations
+- **State & Storage:** Local Storage
+- **Tools:** Git, GitHub, VS Code
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+``` bash
+Portfolio/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── styles/
+│ ├── App.js
+│ └── index.js
+├── public/
+├── package.json
+└── README.md
+``` 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 Key Highlights
+
+- Implemented a **color-changing theme system** that adapts UI dynamically.
+- Ensured **clean component architecture** following React best practices.
+- Optimized animations and layouts for **smooth performance**.
+- Designed with **user experience and visual aesthetics** as a priority.
+
+## 📸 Preview
+![Main](public/Hero.png)
+![Main](public/About1.png)
+![Main](public/About2.png)
+
+## Dark Mode
+![Main](public/Darkmod.png)
+
+## Style-Switcher
+![Main](public/switch.png)
+
+
+
+### 📧 Contact Form
+
+- Integrated **EmailJS** for the contact form to send messages directly to my email.  
+- Users can submit their name, email, and message without leaving the website.  
+- Implemented form validation and responsive design for smooth user experience.  
+- Uses EmailJS service to securely handle email delivery from frontend without a backend server.
+
+![Contact Form](public/Contact.png)
+
+## 📌 Getting Started
+
+Clone the repository:
+
+git clone https://github.com/anub1004/Portfolio.git
