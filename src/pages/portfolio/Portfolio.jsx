@@ -1,0 +1,35 @@
+import React from 'react';
+import { portfolio } from '../../Components/Data';
+import { RiLink } from "react-icons/ri";
+import './portfolio.css';
+const Portfolio = () => {
+
+  return<>
+  <section className="portfolio-section">
+   <h2 className='section-title'> My <span>Portfolio</span></h2>
+    <div className="portfolio-container container grid">
+      {
+        portfolio.map(({id,img,title,description,link,skills})=>{
+          return<> 
+            <article className='portfolio-card' key={id}>
+              <a href={link} className="portfolio-img-wrapper"></a>
+              <img src={img} alt="" className="portfolio-img" />
+              <h3 className="portfolio-title">{title}</h3>
+              <p className="portfolio-description">{description}</p>
+              <div className="portfolio-skills">
+             
+              </div>
+              <a href={link} className="portfolio-link">
+                <RiLink className='link-icon' ></RiLink>
+                <span className="vi"> Visit Project</span>
+              </a>
+            </article>
+          </>
+        })
+      }
+    </div>
+  </section>
+  </>
+}
+
+export default Portfolio
